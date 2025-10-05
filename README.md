@@ -37,6 +37,10 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(ReLU) - The rectified linear activation function or ReLU for short is a piecewise linear function that will output the input directly if it is positive, otherwise, it will output zero.The rectified linear activation function overcomes the vanishing gradient problem, allowing models to learn faster and perform better.
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
+## Model Used - 
+* CNN
+* ResNet50
+
 ### Model Architecture
 <img width="797" height="600" alt="image" src="https://github.com/user-attachments/assets/20d954ab-4cf1-4619-881f-48312daefa5c" />
 
@@ -45,10 +49,4 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 
 ## References
 Melanoma Skin Cancer from https://www.cancer.org/cancer/melanoma-skin-cancer/about/what-is-melanoma.html
-
-Introduction to CNN from https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/
-
-Image classification using CNN from https://www.analyticsvidhya.com/blog/2020/02/learn-image-classification-cnn-convolutional-neural-networks-3-datasets/
-
-Efficient way to build CNN architecture from https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7
-
+Kaggle Dataset - ![Link](https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset)
